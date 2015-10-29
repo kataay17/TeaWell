@@ -1,0 +1,52 @@
+@fontface{
+	font-family: 'OstrichRegular';
+  	src: url('../fonts/OstrichRegular.ttf') format('ttf'),
+}
+
+.col-md-12{
+	width:100vw;
+	height: 250px;
+	background-image: url(../img/tea-home-header.jpg);
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+/*	border: 1px black solid;
+*/	background-size: 100%;
+}
+
+
+.container-fluid{
+	margin:0;
+	padding: 0;
+	}
+
+.col-md-4{
+	position:relative;
+	border: 1px black solid;
+	float: right;
+
+	}
+
+.col-md-4 img{
+	width: 100%;
+
+	border: 1px black solid;
+
+}
+
+
+.col-md-8{
+	float: left;
+	position: relative;
+
+
+}
+
+
+.quote {
+	font-family: "OstrichRegular";
+	text-transform: uppercase;
+	margin-left: 50px;
+}
+
+
