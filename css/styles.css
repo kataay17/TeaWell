@@ -3,50 +3,54 @@
   	src: url('../fonts/OstrichRegular.ttf') format('ttf'),
 }
 
-.col-md-12{
-	width:100vw;
-	height: 250px;
-	background-image: url(../img/tea-home-header.jpg);
-	background-repeat: no-repeat;
-	margin: 0;
-	padding: 0;
-/*	border: 1px black solid;
-*/	background-size: 100%;
-}
-
-
-.container-fluid{
-	margin:0;
-	padding: 0;
-	}
-
-.col-md-4{
-	position:relative;
-	border: 1px black solid;
-	float: right;
-
-	}
-
-.col-md-4 img{
-	width: 100%;
-
-	border: 1px black solid;
-
-}
-
-
-.col-md-8{
-	float: left;
+.conatiner {
 	position: relative;
 
+}
+img {
+	position: absolute;
+	/*width: 100%;
+	height: 100%;*/
+	margin-left: 150px;
 
 }
 
+.index {
+	z-index: -1;
+	visibility: 50%;
 
-.quote {
-	font-family: "OstrichRegular";
-	text-transform: uppercase;
-	margin-left: 50px;
 }
 
+.quiz {
+	z-index:-2;
 
+}
+
+.answers {
+	z-index: -3;
+
+}
+
+.shop {
+	z-index: -4;
+
+}
+/*
+.row {
+	opacity: -10;
+}
+
+.row1 {
+	opacity: -10;
+}
+
+.row2 {
+	opacity: -10;
+}
+
+.row3 {
+	color: orange;
+	padding: 5px;
+	border: 1px solid orange;
+}
+*/
