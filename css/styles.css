@@ -22,6 +22,7 @@ body{
 
 .col-md-12{
 	padding: 0px;
+
 }
 
 #nav-container{
@@ -30,10 +31,12 @@ body{
 
 
 
-#tea-header img{
-	width: 100%;
+#Shoptea-header img{
 	position: absolute;
 	z-index: -100;
+	text-align: center;
+
+
 
 }
 
@@ -114,7 +117,6 @@ h1{
 	padding-left: 80px;
 	padding-bottom: 20px;
 }
-
 .home-p{
 	padding-left: 80px;
 	font-family: "Frutiger-Light";
@@ -130,6 +132,7 @@ h1{
 	background-color:#ff8e6c;
 	position: relative;
 	margin: 0px;
+
 }
 
 #social{
@@ -147,15 +150,31 @@ h1{
 }
 
 #footer p{
+/*	border: 1px solid black;*/
+	float: left;
 	color: white;
-	margin: 0px;
 	margin-left: 50px;
-	margin-top:40px;
+	margin-top: 30px;
 	display: inline;
+	position: relative;
 }
 
 
 
+h2 {
+	font-family: "Frutiger-Bold";
+	color: #00afab;
+	font-size: 10pt;
+	padding-left: 310px;
+}
 
+#teas {
+	padding-left: 500px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
 
 
