@@ -145,9 +145,9 @@ h1{
 }
 
 #Shoptea-header img{
-	position: absolute;
-	z-index: -100;
-	text-align: center;
+	position: relative;
+	z-index: -1;
+	width: 100%;
 }
 
 
@@ -155,15 +155,20 @@ h2 {
 	font-family: "Frutiger-Bold";
 	color: #00afab;
 	font-size: 10pt;
-	padding-left: 310px;
+	text-align: center;
+	/*padding-left: 310px;*/
 }
 
 #teas {
-	padding-left: 500px;
+	/*padding-left: 500px;*/
+	position: relative;
+	float: left;
+
+	/*
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
-    transform: rotate(90deg);
+    transform: rotate(90deg);*/
 }
 
