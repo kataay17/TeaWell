@@ -1,28 +1,24 @@
 @font-face{
 	font-family: "Frutiger-Bold";
 	src: url(../fonts/FrutigerLTStd-Bold.otf);
-
 }
 
 @font-face{
 	font-family: "Frutiger-Light";
 	src: url(../fonts/FrutigerLTStd-Light.otf);
-
 }
 
 .container-fluid{
-padding: 0;
+	padding: 0;
 }
 
 body{
 	margin: 0;
 	padding: 0;
-
 }
 
 .col-md-12{
 	padding: 0px;
-
 }
 
 #nav-container{
@@ -32,13 +28,9 @@ body{
 
 #tea-header img{
 	width: 100%;
-	position: absolute;
+	position: relative;
+	z-index: -1;
 }
-
-
-
-
-
 
 .quiz-button{
 	border-radius: .5em;
@@ -54,30 +46,33 @@ body{
 	margin-top: 50px;
 	text-align: center;
 	-webkit-box-shadow: 10px 10px 26px -13px rgba(0,0,0,0.8);
--moz-box-shadow: 10px 10px 26px -13px rgba(0,0,0,0.8);
-box-shadow: 10px 10px 26px -13px rgba(0,0,0,0.8);
-/*	border: 1px solid black;*/
+	-moz-box-shadow: 10px 10px 26px -13px rgba(0,0,0,0.8);
+	box-shadow: 10px 10px 26px -13px rgba(0,0,0,0.8);
+	/*	border: 1px solid black;*/
 }
 
 
 
 .quiz-button:hover {
 	cursor: pointer;
-
 }
 
 #logo{
 	width: 250px;
 	padding: 30px;
 	z-index: 200;
-	position: relative;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 nav{
 	padding-top: 40px;
-	padding-right: 10px;
-	padding-left: 60px;
-	float: right;
+	padding-right: 60px;
+	top: 0;
+	right: 0;
+	/*padding-left: 60px;
+	float: right;*/
 	position: absolute;
 	z-index: 200;
 }
@@ -90,17 +85,14 @@ nav ul li{
 	font-family: "Frutiger-Bold";
 	font-size: 20px;
 	text-transform: uppercase;
-	   text-shadow: 2px 2px #00afab;
-
-
+	text-shadow: 2px 2px #00afab;
 }
 
 #tea-lady{
 	position:relative;
-	margin-top: 350px;
+	/*	margin-top: 350px;
 	float: right;
-	margin-right: 100px;
-
+	margin-right: 100px;*/
 }
 
 h1{
@@ -108,17 +100,17 @@ h1{
 	font-family: "Frutiger-Bold";
 	text-transform: uppercase;
 	color: #00afab;
-	margin-top: 300px;
+	margin-top: 30px;
 	font-size: 65px;
 	padding-left: 80px;
 	padding-bottom: 20px;
 }
+
 .home-p{
 	padding-left: 80px;
 	font-family: "Frutiger-Light";
 	font-size: 18px;
 	line-height: 25px;
-
 }
 
 
@@ -128,7 +120,6 @@ h1{
 	background-color:#ff8e6c;
 	position: relative;
 	margin: 0px;
-
 }
 
 #social{
@@ -140,13 +131,11 @@ h1{
 
 
 #social img{
-
 	padding-right: 20px;
-
 }
 
 #footer p{
-/*	border: 1px solid black;*/
+	/*	border: 1px solid black;*/
 	float: left;
 	color: white;
 	margin-left: 50px;
@@ -159,7 +148,6 @@ h1{
 	position: absolute;
 	z-index: -100;
 	text-align: center;
-
 }
 
 
@@ -178,5 +166,4 @@ h2 {
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-
 
