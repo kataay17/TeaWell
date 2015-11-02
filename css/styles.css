@@ -146,6 +146,7 @@ h1{
 	position: relative;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -221,6 +222,12 @@ h2{
 	color: gray;
 	font-family: "Museo_Slab_500";
 	font-size: 22px;
+=======
+#Shoptea-header img{
+	position: relative;
+	z-index: -1;
+	width: 100%;
+>>>>>>> 3e791137c762ec59ff02ea1e8f328f1dace24d50
 }
 
 
@@ -242,10 +249,30 @@ h2{
 .price{
 	font-family: "Frutiger-Bold";
 	color: #00afab;
+<<<<<<< HEAD
 	margin-top: 30px;
 }
 
 
 
 
+=======
+	font-size: 10pt;
+	text-align: center;
+	/*padding-left: 310px;*/
+}
+
+#teas {
+	/*padding-left: 500px;*/
+	position: relative;
+	float: left;
+
+	/*
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);*/
+}
+>>>>>>> 3e791137c762ec59ff02ea1e8f328f1dace24d50
 
