@@ -1,4 +1,9 @@
 $(document).ready(function() {
+
+
+    $('#myLightbox').lightbox(options)
+
+    
             $(".index").mouseenter(function() {
                 $("#overlay").show();
             });

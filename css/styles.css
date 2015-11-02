@@ -39,10 +39,7 @@ body{
 	background-color: rgb(0,175,171);
 	width: 250px;
 	height: 90px;
-	font-family: "Frutiger-Bold";
-	text-transform: uppercase;
-	color: white;
-	font-size: 30px;
+	
 	padding-top: 30px;
 	margin-left: 80px;
 	margin-top: 50px;
@@ -53,10 +50,18 @@ body{
 	/*	border: 1px solid black;*/
 }
 
+.quiz-button p{
+	font-family: "Frutiger-Bold";
+	text-transform: uppercase;
+	color: white;
+	font-size: 30px;
+}
+
 
 
 .quiz-button:hover {
 	cursor: pointer;
+	color: #24c6c2;
 }
 
 #logo{
@@ -246,5 +251,91 @@ h2{
 
 
 
+/* QUIZ PAGE STYLES */
+
+
+
+#teal-logo {
+	width: 325px;
+	padding: 30px;
+	z-index: 200;
+	position: relative;
+	top: 0;
+	left: 0;
+	float: left;
+	padding-right: 10px;
+}
+
+h3{
+	text-transform: uppercase;
+	color: gray;
+	font-family: "Museo_Slab_500";
+	font-size: 55px;
+	position: relative;
+	float:left;
+	margin: 0;
+	padding-top: 28px;
+
+}
+
+#tea-side{
+	width:100%;
+
+}
+
+
+.answer-button{
+		border-radius: .5em;
+	background-color: rgb(0,175,171);
+	width: 150px;
+	height: 55px;
+	font-family: "Frutiger-Bold";
+	text-transform: uppercase;
+	color: white;
+	font-size: 17px;
+	text-align: center;
+	-webkit-box-shadow: 10px 10px 26px -13px rgba(0,0,0,0.8);
+	-moz-box-shadow: 10px 10px 26px -13px rgba(0,0,0,0.8);
+	box-shadow: 10px 10px 26px -13px rgba(0,0,0,0.8);
+	position: absolute;
+	margin: 100px;
+	padding-top: 16px;
+
+}
+
+
+/*
+#lightbox-area{
+	position: absolute;
+}
+
+.backdrop{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: rgba(220, 220, 220, .6);
+	z-index: 500;
+display: none;
+	width:100vw;
+	height:100vh;
+
+
+}
+
+/*.lightbox{
+	position: absolute
+	top: 20%;
+	left: 30%;
+	width: 500px;
+	height: 300px;
+	background: rgba(200, 200, 200, .6);
+
+
+
+	background: rgb(255, 255, 255);
+	display: none;
+	border-radius: 10px;
+	z-index: 500;
+}*/
 
 

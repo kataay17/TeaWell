@@ -12,21 +12,87 @@
 
 		<link rel="stylesheet" href="css/styles.css"/>
 
+		<link rel="css/bootstrap-lightbox.css"/>
+
 	</head>
 	
 	<body>
 
-		<div class="container"/>
+		<div class="container-fluid">
 
-			<row class="col-md-8 top"/>
-				<img src="img/TeaWell_logo_teal.png"/>
+			<div class="row">
 
-			</row>
+				<div class="col-md-7">
 
-			<row class="col-md-4"/>
+					<img id="teal-logo" src="img/TeaWell_logo_teal.png"/>
 
-			</row>
+					<h3> Quiz </h3>
 
+					<div class="answer-button">
+
+						<a data-toggle="lightbox" href="#demoLightbox">Your tea is...</a>
+							
+					</div>
+
+				</div>
+
+				<div class="col-md-5">
+
+					<nav>
+				  		<ul>
+				  			<li> Home </li>
+				  			<li> Shop </li>
+				  			<li> About </li>
+				  			<li> Contact </li>
+				  		</ul>
+			  		</nav>
+
+					<img id="tea-side" src="img/teas-cropped.jpg"/>
+
+
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<!-- <div id="lightbox-area" class="container-fluid">
+
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<div class="backdrop"> </div>
+
+					<div class="lightbox"> </div>
+
+
+				</div>
+
+			</div>
+
+		</div> -->
+
+		<div class="container-fluid">
+			<div class="row">
+
+				<div id="footer"> 
+					<div id="clear">
+						<p> Copyright 2015</p>
+					</div>
+
+					<div id="social">
+
+						<img src="img/social-media/FB.png" width="55px"/>
+
+						<img src="img/social-media/twitter.png" width="55px"/>
+
+						<img src="img/social-media/pinterest.png" width="55px"/>
+
+					</div>
+				</div>
+			</div>
 		</div>
 
 	</body>
@@ -34,6 +100,8 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<script src="js/bootstrap-lightbox.js"></script>
 
 
 
