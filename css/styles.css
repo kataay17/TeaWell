@@ -8,6 +8,11 @@
 	src: url(../fonts/FrutigerLTStd-Light.otf);
 }
 
+@font-face{
+	font-family: "Museo_Slab_500";
+	src: url(../fonts/Museo_Slab_500.otf);
+}
+
 .container-fluid{
 	padding: 0;
 }
@@ -21,9 +26,6 @@ body{
 	padding: 0px;
 }
 
-#nav-container{
-	margin: 0;
-}
 
 
 #tea-header img{
@@ -71,8 +73,8 @@ nav{
 	padding-right: 60px;
 	top: 0;
 	right: 0;
-	/*padding-left: 60px;
-	float: right;*/
+	padding-left: 60px;
+	float: right;
 	position: absolute;
 	z-index: 200;
 }
@@ -90,9 +92,9 @@ nav ul li{
 
 #tea-lady{
 	position:relative;
-	/*	margin-top: 350px;
+		margin-top: 350px;
 	float: right;
-	margin-right: 100px;*/
+	margin-right: 100px;
 }
 
 h1{
@@ -144,26 +146,106 @@ h1{
 	position: relative;
 }
 
-#Shoptea-header img{
-	position: absolute;
-	z-index: -100;
-	text-align: center;
+
+
+
+
+/* SHOP PAGE STYLES */
+
+
+.raspberry{
+	position: relative;
+	margin: 50px;
+	width: 550px;
+		margin-bottom: 70px;
+		padding-right: 60px;
+		margin-top: 70px;
+
+	
+}
+
+.raspberry .text{
+	position: relative;
+/*	border: 1px solid black;
+*/	width: 275px;
+	float: right;
+	
 }
 
 
-h2 {
+
+
+
+.orange{
+	position: relative;
+	margin: 50px;
+	width: 550px;
+	padding-right: 60px;
+}
+
+.orange .text{
+	position: relative;
+	width: 275px;
+	float: right;
+	margin-bottom: 100px;
+	
+}
+
+
+.yellow{
+	position: relative;
+	margin: 50px;
+	width: 550px;
+		margin-bottom: 70px;
+		padding-right: 60px;
+		margin-top: 70px;
+
+	
+}
+
+.yellow .text{
+	position: relative;
+/*	border: 1px solid black;
+*/	width: 275px;
+	float: right;
+	
+}
+
+p{
+	font-family: "Frutiger-Light";
+	font-size: 14px;
+}
+
+h2{
+	text-transform: uppercase;
+	color: gray;
+	font-family: "Museo_Slab_500";
+	font-size: 22px;
+}
+
+
+.green{
+	position: relative;
+	margin: 50px;
+	width: 550px;
+	padding-right: 60px;
+}
+
+.green .text{
+	position: relative;
+	width: 275px;
+	float: right;
+	margin-bottom: 100px;
+	
+}
+
+.price{
 	font-family: "Frutiger-Bold";
 	color: #00afab;
-	font-size: 10pt;
-	padding-left: 310px;
+	margin-top: 30px;
 }
 
-#teas {
-	padding-left: 500px;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
+
+
+
 
