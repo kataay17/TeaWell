@@ -1,21 +1,21 @@
 $(document).ready(function() {
 
 
-    $('#myLightbox').lightbox(options)
+    $('#Lightbox').lightbox(options)
 
     
-            $(".index").mouseenter(function() {
+            $(".Lightbox").mouseenter(function() {
                 $("#overlay").show();
             });
-            $(".index").mouseleave(function() {
+            $(".Lightbox").mouseleave(function() {
                 $("#overlay").hide();
             });
         });
         $(document).ready(function() {
-            $(".quiz").mouseenter(function() {
+            $(".Lightbox").mouseenter(function() {
                 $("#overly").show();
             });
-            $(".quiz").mouseleave(function() {
+            $(".Lightbox").mouseleave(function() {
                 $("#overly").hide();
             });
         });
