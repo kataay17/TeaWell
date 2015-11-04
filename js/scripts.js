@@ -52,53 +52,69 @@ $(document).ready(function(){
 
         if (sleep === "yes" & cholesterol === "no" & upsetstomach === "no"){
 
-            result = "img/raspberry-leaf-tea.jpg";
+            result = "img/raspberry-leaf-tea.png";
+
+            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5> <br> <p>Test test tes</p>';
 
         };
 
         if (sleep === "no" & cholesterol === "yes" & upsetstomach === "no"){
 
-            result = "2";
+            result = "img/raspberry-leaf-tea.png";
+
+            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5>';
 
         };
 
         if (sleep === "no" & cholesterol === "no" & upsetstomach === "yes"){
 
-            result = "3";
+            result = "img/raspberry-leaf-tea.png";
+
+            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5>';
 
         };
 
         if (sleep === "yes" & cholesterol === "yes" & upsetstomach === "yes"){
 
-            result = "4";
+            result = "img/raspberry-leaf-tea.png";
+
+            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5>';
 
         };
 
         if (sleep === "no" & cholesterol === "no" & upsetstomach === "no"){
 
-            result = "5";
+            result = "img/raspberry-leaf-tea.png";
+
+            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5>';
 
         };
 
         if (sleep === "no" & cholesterol === "yes" & upsetstomach === "yes"){
 
-            result = "6";
+            result = "img/raspberry-leaf-tea.png";
+
+            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5>';
 
         };
 
         if (sleep === "yes" & cholesterol === "yes" & upsetstomach === "no"){
 
-            result = "7";
+            result = "img/raspberry-leaf-tea.png";
+
+            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5>';
 
         };
 
         if (sleep === "yes" & cholesterol === "no" & upsetstomach === "yes"){
 
-            result = "8";
+            result = "img/raspberry-leaf-tea.png";
+
+            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5>';
 
         };
 
-        document.getElementById("resultimg").innerHTML = '<img src="'+result+'">';
+        document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5>';
 
         console.log("sleep"+sleep);
         console.log("cholesterol"+cholesterol);
