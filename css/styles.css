@@ -280,7 +280,8 @@ h3{
 }
 
 #tea-side{
-	width:80%;
+	position: relative;
+	width: 80%;
 	float: right;
 
 }
@@ -315,7 +316,20 @@ h3{
 	width: 700px;
 }
 
+form{
+	display: inline-block;
+	position: relative;
+	float: bottom;
+	border: solid black 1px;
+	width: 40%;
+	margin: 0 !important;
 
+}
+
+#resultimg img{
+	height: 50%;
+	width: 50%;
+}
 
 /*
 #lightbox-area{
