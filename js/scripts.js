@@ -30,8 +30,6 @@ $(document).ready(function(){
     var cholesterol;
     var upsetstomach;
 
-    document.getElementById("resultimg").innerHTML = '<img src="'+result+'">';
-
     $("#submitbutton").click(function(){
 
         $('input[name="sleep"]:checked').each(function(){
@@ -101,7 +99,7 @@ $(document).ready(function(){
         };
 
         document.getElementById("resultimg").innerHTML = '<img src="'+result+'">';
-        
+
         console.log("sleep"+sleep);
         console.log("cholesterol"+cholesterol);
         console.log("upsetstomach"+upsetstomach);
