@@ -54,67 +54,68 @@ $(document).ready(function(){
 
             result = "img/raspberry-leaf-tea.png";
 
-            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5> <br> <p>Test test tes</p>';
+            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5>Raspberry Tea</h5><p id="caption"> This tea is super great. You should probably drink it and you will feel wonderful all of the time! Did I mention this tea is great? I felt like I had to mention it again. Thanks for taking the quiz you wonderful person!</p>';
 
         };
 
         if (sleep === "no" & cholesterol === "yes" & upsetstomach === "no"){
 
-            result = "img/raspberry-leaf-tea.png";
+            result = "img/blueberry-tea.jpg";
 
-            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5>';
+            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Blueberry Tea</h5><p id="caption"> This tea is super great. You should probably drink it and you will feel wonderful all of the time! Did I mention this tea is great? I felt like I had to mention it again. Thanks for taking the quiz you wonderful person!</p>';
 
         };
 
         if (sleep === "no" & cholesterol === "no" & upsetstomach === "yes"){
 
-            result = "img/raspberry-leaf-tea.png";
+            result = "img/yellow-tea2.jpg";
 
-            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5>';
+            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Yellow Tea</h5><p id="caption"> This tea is super great. You should probably drink it and you will feel wonderful all of the time! Did I mention this tea is great? I felt like I had to mention it again. Thanks for taking the quiz you wonderful person!</p>';
 
         };
 
         if (sleep === "yes" & cholesterol === "yes" & upsetstomach === "yes"){
 
-            result = "img/raspberry-leaf-tea.png";
+            result = "img/green_tea.png";
 
-            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5>';
+            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Green Tea</h5><p id="caption"> This tea is super great. You should probably drink it and you will feel wonderful all of the time! Did I mention this tea is great? I felt like I had to mention it again. Thanks for taking the quiz you wonderful person!</p>';
+
 
         };
 
         if (sleep === "no" & cholesterol === "no" & upsetstomach === "no"){
 
-            result = "img/raspberry-leaf-tea.png";
+            result = "img/mint-tea.jpg";
 
-            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5>';
+            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Mint Tea</h5><p id="caption"> This tea is super great. You should probably drink it and you will feel wonderful all of the time! Did I mention this tea is great? I felt like I had to mention it again. Thanks for taking the quiz you wonderful person!</p>';
 
         };
 
         if (sleep === "no" & cholesterol === "yes" & upsetstomach === "yes"){
 
-            result = "img/raspberry-leaf-tea.png";
+            result = "img/cinnamon-tea.jpg";
 
-            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5>';
+            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Cinnamon Tea</h5><p id="caption"> This tea is super great. You should probably drink it and you will feel wonderful all of the time! Did I mention this tea is great? I felt like I had to mention it again. Thanks for taking the quiz you wonderful person!</p>';
 
         };
 
         if (sleep === "yes" & cholesterol === "yes" & upsetstomach === "no"){
 
-            result = "img/raspberry-leaf-tea.png";
+            result = "img/orange-tea.jpg";
 
-            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5>';
+            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Orange Tea</h5><p id="caption"> This tea is super great. You should probably drink it and you will feel wonderful all of the time! Did I mention this tea is great? I felt like I had to mention it again. Thanks for taking the quiz you wonderful person!</p>';
 
         };
 
         if (sleep === "yes" & cholesterol === "no" & upsetstomach === "yes"){
 
-            result = "img/raspberry-leaf-tea.png";
+            result = "img/lavender-tea.jpg";
 
-            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5>';
+            document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Lavender Tea</h5><p id="caption"> This tea is super great. You should probably drink it and you will feel wonderful all of the time! Did I mention this tea is great? I felt like I had to mention it again. Thanks for taking the quiz you wonderful person!</p>';
 
         };
 
-        document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5>';
+        // document.getElementById("resultimg").innerHTML = '<img src="'+result+'"><h5> Raspberry Tea</h5><p id="caption"> This tea is super great. You should probably drink it and you will feel wonderful all of the time! Did I mention this tea is great? I felt like I had to mention it again. Thanks for taking the quiz!</p>';
 
         console.log("sleep"+sleep);
         console.log("cholesterol"+cholesterol);
